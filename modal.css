@@ -1,0 +1,69 @@
+html, body{
+	height: 100%;
+}
+
+.my-navbar{
+	background: #ED528D;
+}
+
+.my-navbar .navbar-nav li a{
+	color: #fff;
+}
+
+.page-title{
+	color: #ED528D;
+}
+
+.btn.btn-primary{
+	background: #ED528D;
+	border: none;
+}
+
+.btn.btn-primary:focus, .btn.btn-primary:active{
+	outline: none;
+	box-shadow: none;
+}
+
+.shape{
+	width: 100%;
+	height: 400px;
+	background: linear-gradient(to bottom, #D63773, #ED528D 70%);
+	position: absolute;
+	clip-path: ellipse(150px 150px at 10% 5%);
+	-webkit-clip-path: ellipse(150px 150px at 10% 5%);
+}
+
+.event-desc{
+	margin: 0;
+	padding: 0;
+}
+
+.event-desc li{
+	list-style-type: none;
+	border-left: 3px solid #bb7805;
+}
+
+.event-desc li p{
+	margin-left: 10px;
+}
+
+body.modal-open .bg{
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
+}
+
+@media screen and (max-width: 600px){
+	.shape{
+		clip-path: inset(0% 0% 83% 0%);
+		-webkit-clip-path: inset(0% 0% 83% 0%);
+	}
+}
+
+
+
+
+
+
+
+
+
